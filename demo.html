@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cart Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="asset/heading.png" alt="Brand Logo">
+        </div>
+    </header>
+
+    <section class="cart-home">
+        <div class="home">
+            <img src="asset/house.png">
+            <img src="asset/logo.png">
+            <img src="asset/logo-text.png">
+        </div>
+    </section>
+
+    <!-- Cart Content Section -->
+    <section class="cart-content">
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be dynamically loaded here -->
+        </div>
+
+        <div class="cart-totals card">
+            <h3>Cart Totals</h3>
+            <div class="totals">
+                <p>Subtotal: ₹<span id="cart-subtotal">0</span></p>
+                <p>Total: ₹<span id="cart-total">0</span></p>
+            </div>
+            <button id="checkout-btn">Check Out</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-icons">
+            <img src="asset/footer.png" alt="Brand Logo">
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
